@@ -1,0 +1,22 @@
+﻿ Log File has been created : Log File Created Successfully  - 13-Feb-2025
+ Info : InitAllApplication Section Started : ----------------------------------------------------------------------------
+Info : ConfigFile has been read from Storage bucket : Name	Value 
+TeamName	Alpha,Achievers 
+FromMailID	TestSK818@outlook.com
+MailBehalfOFName	Test,Demo
+ToMailID	TestSK818@outlook.com
+CCMailID	TestSK818@outlook.com
+MailSubject	Raptors,Prime,-,Alpha,Achievers,||,MOM
+MOMFileURL	https://1drv.ms/x/s!AjeqBYdtkSAZam3jKint2l742sE?e=5aTKUP
+ Info : ConfigFile String Data convert into Data Table : 7
+ Info : key  : TeamName value : Alpha,Achievers
+ Info : key  : FromMailID value : TestSK818@outlook.com
+ Info : key  : MailBehalfOFName value : Test,Demo
+ Info : key  : ToMailID value : TestSK818@outlook.com
+ Info : key  : CCMailID value : TestSK818@outlook.com
+ Info : key  : MailSubject value : Raptors,Prime,-,Alpha,Achievers,||,MOM
+ Info : key  : MOMFileURL value : https://1drv.ms/x/s!AjeqBYdtkSAZam3jKint2l742sE?e=5aTKUP
+Info : KillAllApplication Section has Started : -----------------------------------------------------------------------
+Info : InitAllApplication Section has Started : ----------------------------------------------------------------
+Info : GenerateReportingData Section has Started : -------------------------------------------------------------------
+ Error : Found Exception while GenerateReportingData, Exception details are : The given key 'MOMFilejURL' was not present in the dictionary.
