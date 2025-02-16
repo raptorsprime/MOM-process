@@ -127,15 +127,15 @@
       <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="GenerateReportingData" sap:VirtualizedContainerService.HintSize="1002,1522" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="GenerateReportingData" sap:VirtualizedContainerService.HintSize="1002,1562" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch - GenerateReportingData" sap:VirtualizedContainerService.HintSize="520,1499" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch - GenerateReportingData" sap:VirtualizedContainerService.HintSize="520,1539" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence DisplayName="GenerateReportingData" sap:VirtualizedContainerService.HintSize="518,907" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="GenerateReportingData" sap:VirtualizedContainerService.HintSize="518,947" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -149,7 +149,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:AppendLine>
-          <umaf:UseDriveCard ApplicationId="{x:Null}" ContinueOnError="{x:Null}" TenantId="{x:Null}" Timeout="{x:Null}" Account="Please select an account." ConnectionAccountName="Microsoft OneDrive &amp; SharePoint #2" ConnectionId="84e80582-8244-4dbc-ab16-b089f065bd83" Connector="uipath-microsoft-onedrive" DisplayName="Use OneDrive and SharePoint" EmailAddress="[Nothing]" sap:VirtualizedContainerService.HintSize="484,526" sap2010:WorkflowViewState.IdRef="UseDriveCard_1" UseConnectionService="True">
+          <umaf:UseDriveCard ApplicationId="{x:Null}" ContinueOnError="{x:Null}" TenantId="{x:Null}" Timeout="{x:Null}" Account="Please select an account." ConnectionAccountName="Microsoft OneDrive &amp; SharePoint #2" ConnectionId="84e80582-8244-4dbc-ab16-b089f065bd83" Connector="uipath-microsoft-onedrive" DisplayName="Use OneDrive and SharePoint" EmailAddress="[Nothing]" sap:VirtualizedContainerService.HintSize="484,566" sap2010:WorkflowViewState.IdRef="UseDriveCard_1" UseConnectionService="True">
             <umaf:UseDriveCard.Body>
               <ActivityAction x:TypeArguments="umafc:IDriveMetadata">
                 <ActivityAction.Argument>
@@ -164,7 +164,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <umaf:GetItem ContinueOnError="{x:Null}" DriveMetadata="{x:Null}" DriveName="{x:Null}" ItemFriendlyName="{x:Null}" ItemId="{x:Null}" SiteUrl="{x:Null}" AuthScopesInvalid="False" DisplayName="Get File or Folder" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="GetItem_1" Item="[file_MomStatus]" ItemSelectionMode="ItemUrl" ItemUrl="[in_Config(&quot;MOMFilejURL&quot;).ToString]">
+                  <umaf:GetItem ContinueOnError="{x:Null}" DriveName="{x:Null}" ItemFriendlyName="{x:Null}" ItemId="{x:Null}" SiteUrl="{x:Null}" AuthScopesInvalid="False" DisplayName="Get File or Folder" DriveMetadata="[DriveLocation]" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="GetItem_1" Item="[file_MomStatus]" ItemSelectionMode="ItemUrl" ItemUrl="[in_Config(&quot;MOMFileURL&quot;).ToString]">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>

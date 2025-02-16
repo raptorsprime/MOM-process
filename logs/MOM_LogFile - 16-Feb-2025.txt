@@ -1,0 +1,31 @@
+﻿ Log File has been created : Log File Created Successfully  - 16-Feb-2025
+ Info : InitAllApplication Section Started : ----------------------------------------------------------------------------
+Info : ConfigFile has been read from Storage bucket : Name	Value 
+TeamName	Alpha,Achievers 
+FromMailID	TestSK818@outlook.com
+MailBehalfOFName	Test,Demo
+ToMailID	TestSK818@outlook.com
+CCMailID	TestSK818@outlook.com
+MailSubject	Raptors,Prime,-,Alpha,Achievers,||,MOM
+MOMFileURL	https://1drv.ms/x/s!AjeqBYdtkSAZam3jKint2l742sE?e=5aTKUP
+ Info : ConfigFile String Data convert into Data Table : 7
+ Info : key  : TeamName value : Alpha,Achievers
+ Info : key  : FromMailID value : TestSK818@outlook.com
+ Info : key  : MailBehalfOFName value : Test,Demo
+ Info : key  : ToMailID value : TestSK818@outlook.com
+ Info : key  : CCMailID value : TestSK818@outlook.com
+ Info : key  : MailSubject value : Raptors,Prime,-,Alpha,Achievers,||,MOM
+ Info : key  : MOMFileURL value : https://1drv.ms/x/s!AjeqBYdtkSAZam3jKint2l742sE?e=5aTKUP
+Info : KillAllApplication Section has Started : -----------------------------------------------------------------------
+Info : InitAllApplication Section has Started : ----------------------------------------------------------------
+Info : GenerateReportingData Section has Started : -------------------------------------------------------------------
+Info : MOM Status Sheet has been downloaded at location : C:\Users\sakadav\Documents\UiPath\MOM_Robot\MomStatusFile\
+ Info : GenerateHTMLMailBody Section has Started : ----------------------------------------------------------------
+Info : HTMLMailBody File Name : 16-Feb-2025
+ Info : HTMLMailBody file has been created at location : C:\Users\sakadav\Documents\UiPath\MOM_Robot\HTMLTableFile\
+ Info : HTML Table format with status data has been created
+ Info : HTML Mail Body file has read from location : C:\Users\sakadav\Documents\UiPath\MOM_Robot\HTMLTableFile\16-Feb-2025.txt
+ Info : SendReportingMail Section has started :-------------------------------------------------------------------------
+ Info : Reporting Mail has been send sucessfully 
+ Info : SendSuccessMail Section has Started:-------------------------------------------------------------------------
+Info : Sucess Mail has been sent 

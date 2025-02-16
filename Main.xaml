@@ -129,22 +129,18 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1002,892" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1002,1253" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Main - SendMOMReports" sap:VirtualizedContainerService.HintSize="418,869" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+    <TryCatch DisplayName="Main - SendMOMReports" sap:VirtualizedContainerService.HintSize="454,1230" sap2010:WorkflowViewState.IdRef="TryCatch_2">
       <TryCatch.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="dt_MOMData" />
         <Variable x:TypeArguments="x:String" Name="RepotingDate" />
         <Variable x:TypeArguments="x:String" Name="file_str_HtmlTableData" />
-        <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="Config">
-          <Variable.Default>
-            <VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" ExpressionText="new Dictionary(of String,Object)" />
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Default="[new Dictionary(of String,Object)]" Name="Config" />
         <Variable x:TypeArguments="x:String" Name="FinalLogFilePath" />
         <Variable x:TypeArguments="x:Boolean" Name="IsProcessSuccessful" />
       </TryCatch.Variables>
@@ -155,14 +151,14 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence DisplayName="SendMOMReports" sap:VirtualizedContainerService.HintSize="416,507" sap2010:WorkflowViewState.IdRef="Sequence_15">
+        <Sequence DisplayName="SendMOMReports" sap:VirtualizedContainerService.HintSize="452,868" sap2010:WorkflowViewState.IdRef="Sequence_15">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <TryCatch DisplayName=" InitLogging" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+          <TryCatch DisplayName=" InitLogging" sap:VirtualizedContainerService.HintSize="418,57" sap2010:WorkflowViewState.IdRef="TryCatch_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -213,7 +209,7 @@
               </Sequence>
             </TryCatch.Finally>
           </TryCatch>
-          <TryCatch DisplayName="InitAllSettings" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+          <TryCatch DisplayName="InitAllSettings" sap:VirtualizedContainerService.HintSize="418,57" sap2010:WorkflowViewState.IdRef="TryCatch_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -261,7 +257,7 @@
               </Sequence>
             </TryCatch.Finally>
           </TryCatch>
-          <TryCatch DisplayName="KillAllApplications" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="TryCatch_4">
+          <TryCatch DisplayName="KillAllApplications" sap:VirtualizedContainerService.HintSize="418,57" sap2010:WorkflowViewState.IdRef="TryCatch_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -308,7 +304,7 @@
               </Sequence>
             </TryCatch.Finally>
           </TryCatch>
-          <TryCatch DisplayName="InitAllApplications" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="TryCatch_5">
+          <TryCatch DisplayName="InitAllApplications" sap:VirtualizedContainerService.HintSize="418,57" sap2010:WorkflowViewState.IdRef="TryCatch_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -355,7 +351,7 @@
               </Sequence>
             </TryCatch.Finally>
           </TryCatch>
-          <TryCatch DisplayName="GenerateReporting" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="TryCatch_6">
+          <TryCatch DisplayName="GenerateReporting" sap:VirtualizedContainerService.HintSize="418,57" sap2010:WorkflowViewState.IdRef="TryCatch_6">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -363,12 +359,10 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <TryCatch.Try>
-              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GenerateReportingData - Invoke Workflow File (GenerateReportingData.xaml)" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="GenerateReportingData.xaml">
+              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GenerateReportingData - Invoke Workflow File (GenerateReportingData.xaml)" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="GenerateReportingData.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
                   <InArgument x:TypeArguments="x:String" x:Key="in_StatusFileDownloadFolderPath">[Environment.CurrentDirectory+"\MomStatusFile\"]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_StatusFileDowloadFilePath">[Environment.CurrentDirectory+"\MomStatusFile\MOM.xlsx"]</InArgument>
                   <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[Config]</InArgument>
-                  <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_MOMData">[dt_MOMData]</OutArgument>
                   <InArgument x:TypeArguments="x:String" x:Key="in_LogFilePath">[FinalLogFilePath]</InArgument>
                 </ui:InvokeWorkflowFile.Arguments>
                 <sap:WorkflowViewStateService.ViewState>
@@ -406,21 +400,21 @@
               </Sequence>
             </TryCatch.Finally>
           </TryCatch>
-          <TryCatch DisplayName="GenerateHTMLMailBody" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="TryCatch_7">
+          <TryCatch DisplayName="GenerateHTMLMailBody" sap:VirtualizedContainerService.HintSize="418,418" sap2010:WorkflowViewState.IdRef="TryCatch_7">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <TryCatch.Try>
-              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GenerateHTMLMailBody - Invoke Workflow File (GenerateHTMLMailBody.xaml)" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="GenerateHTMLMailBody.xaml">
+              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GenerateHTMLMailBody - Invoke Workflow File (GenerateHTMLMailBody.xaml)" sap:VirtualizedContainerService.HintSize="338,145" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="GenerateHTMLMailBody.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
                   <InArgument x:TypeArguments="x:String" x:Key="in_HTMLEmailBodyFileFolderPath">[Environment.CurrentDirectory+"\HTMLTableFile\"]</InArgument>
-                  <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dt_MOMData">[dt_MOMData]</InArgument>
                   <OutArgument x:TypeArguments="x:String" x:Key="out_HTMLTableData">[file_str_HtmlTableData]</OutArgument>
                   <OutArgument x:TypeArguments="x:String" x:Key="out_FileName">[RepotingDate]</OutArgument>
                   <InArgument x:TypeArguments="x:String" x:Key="in_LogFilePath">[FinalLogFilePath]</InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_MOMStatusFilePath">[Environment.CurrentDirectory+"\MomStatusFile\MOM.xlsx"]</InArgument>
                 </ui:InvokeWorkflowFile.Arguments>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -457,7 +451,7 @@
               </Sequence>
             </TryCatch.Finally>
           </TryCatch>
-          <TryCatch DisplayName="SendReportingMail" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="TryCatch_8">
+          <TryCatch DisplayName="SendReportingMail" sap:VirtualizedContainerService.HintSize="418,57" sap2010:WorkflowViewState.IdRef="TryCatch_8">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -507,7 +501,7 @@
               </Sequence>
             </TryCatch.Finally>
           </TryCatch>
-          <TryCatch DisplayName="SendSuccessMail" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="TryCatch_9">
+          <TryCatch DisplayName="SendSuccessMail" sap:VirtualizedContainerService.HintSize="418,48" sap2010:WorkflowViewState.IdRef="TryCatch_9">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -564,7 +558,7 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="Sequence_18">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="452,108" sap2010:WorkflowViewState.IdRef="Sequence_18">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
