@@ -2,7 +2,7 @@
   <x:Members>
     <x:Property Name="in_StatusFileDownloadFolderPath" Type="InArgument(x:String)" />
     <x:Property Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
-    <x:Property Name="in_LogFilePath" Type="InArgument(x:String)" />
+    <x:Property Name="in_LogFilePath" Type="InOutArgument(x:String)" />
   </x:Members>
   <this:GenerateReportingData.in_StatusFileDownloadFolderPath>
     <InArgument x:TypeArguments="x:String" />
@@ -141,7 +141,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="484,165" sap2010:WorkflowViewState.IdRef="AppendLine_1" Text="Info : GenerateReportingData Section has Started : -------------------------------------------------------------------" UseDefaultEncoding="False">
+          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="484,165" sap2010:WorkflowViewState.IdRef="AppendLine_1" Text="&#xA;------------------------------------------------------------------------------------------------------------&#xA; ||  GenerateReportingData Section has Started  ||&#xA;------------------------------------------------------------------------------------------------------------&#xA;&#xA;" UseDefaultEncoding="False">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -164,7 +164,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <umaf:GetItem ContinueOnError="{x:Null}" DriveName="{x:Null}" ItemFriendlyName="{x:Null}" ItemId="{x:Null}" SiteUrl="{x:Null}" AuthScopesInvalid="False" DisplayName="Get File or Folder" DriveMetadata="[DriveLocation]" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="GetItem_1" Item="[file_MomStatus]" ItemSelectionMode="ItemUrl" ItemUrl="[in_Config(&quot;MOMFileURL&quot;).ToString]">
+                  <umaf:GetItem ContinueOnError="{x:Null}" DriveMetadata="{x:Null}" DriveName="{x:Null}" ItemFriendlyName="{x:Null}" ItemId="{x:Null}" SiteUrl="{x:Null}" AuthScopesInvalid="False" DisplayName="Get File or Folder" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="GetItem_1" Item="[file_MomStatus]" ItemSelectionMode="ItemUrl" ItemUrl="[in_Config(&quot;MOMFileURL&quot;).ToString]">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -190,7 +190,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </umaf:UseDriveCard>
-          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="484,156" sap2010:WorkflowViewState.IdRef="AppendLine_2" Text="[&quot;Info : MOM Status Sheet has been downloaded at location : &quot;+in_StatusFileDownloadFolderPath]" UseDefaultEncoding="False">
+          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="484,156" sap2010:WorkflowViewState.IdRef="AppendLine_2" Text="[&quot;&#xA;Info : MOM Status Sheet has been downloaded at location : &quot;+in_StatusFileDownloadFolderPath]" UseDefaultEncoding="False">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -212,7 +212,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="484,165" sap2010:WorkflowViewState.IdRef="AppendLine_4" Text="[&quot; Error : Found Exception while GenerateReportingData, Exception details are : &quot;+exception.Message]" UseDefaultEncoding="False">
+              <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="484,165" sap2010:WorkflowViewState.IdRef="AppendLine_4" Text="[&quot; &#xA;Error : Found Exception while GenerateReportingData, Exception details are : &quot;+exception.Message]" UseDefaultEncoding="False">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>

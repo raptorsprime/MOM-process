@@ -1,0 +1,159 @@
+﻿ Log File has been created : Log File Created Successfully  - 19-Feb-2025
+
+------------------------------------------------------------------------------------------------------------
+ ||  InitAllApplication Section Started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+Info : ConfigFile has been read from Storage bucket : Path ConfigFile.txt Name :  MoM_Robot_ConfigFile
+
+Info : ConfigFile String Data convert into Data Table : 7
+
+Info : key  : TeamName value : Alpha,Achievers
+
+Info : key  : FromMailID value : sakadav@bugraptors.com
+
+Info : key  : MailBehalfOFName value : Suraj,Kadav
+
+Info : key  : ToMailID value : kashyaptushar@seasiainfotech.com
+
+Info : key  : CCMailID value : bhojanehanumant@bugraptors.com;singhamritpal1@bugraptors.com;barsiwaldeepesh@bugraptors.com
+
+Info : key  : MailSubject value : TestMail,Raptors,Prime,-,Alpha,Achievers,||,MOM
+
+Info : key  : MOMFileURL value : https://1drv.ms/x/s!AjeqBYdtkSAZam3jKint2l742sE?e=5aTKUP
+
+------------------------------------------------------------------------------------------------------------
+ ||  KillAllApplication Section has Started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+
+Info : Outlook Application has been closed 
+
+------------------------------------------------------------------------------------------------------------
+ ||  InitAllApplication Section has Started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+
+Info : Outlook Application has been Started 
+
+------------------------------------------------------------------------------------------------------------
+ ||  GenerateReportingData Section has Started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+
+Info : MOM Status Sheet has been downloaded at location : C:\Users\sakadav\Documents\UiPath\MOM_Robot\MomStatusFile\
+
+------------------------------------------------------------------------------------------------------------
+ ||  GenerateHTMLMailBody Section has Started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+
+Info : HTMLMailBody File Name : 19-Feb-2025
+ 
+Info : HTMLMailBody file has been created at location : C:\Users\sakadav\Documents\UiPath\MOM_Robot\HTMLTableFile\
+ 
+Info : HTML Table format with status data has been created
+
+Info : HTML Mail Body file has read from location : C:\Users\sakadav\Documents\UiPath\MOM_Robot\HTMLTableFile\19-Feb-2025.txt And Data is Hello Tushar sir, <p>
+ 
+
+Please find today's MOM of the team below : <b> 19-Feb-2025 </b></p>
+<p>
+
+Team Name  : <b> Alpha Achievers </b></p>
+<table border=1><tr>
+<td><b><center>Resource Name</td>
+<td><b><center>Project</td>
+<td><b><center>Task</td>
+<td><b><center>Estimated Hours</td>
+</tr>
+<tr>
+<td><center>Amritpal Singh</td>
+<td><center>Allego</td>
+<td><center>On Leave</td>
+<td><center>0</td>
+</tr>
+<tr>
+<td><center>Deepesh Barsiwal</td>
+<td><center>Automation</td>
+<td><center>I will work on ios test cases of Allego project.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Hanumant Bhojane</td>
+<td><center>Allego</td>
+<td><center>I will work on iOS ticket number ABT-16462.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Suraj Ashok Kadav</td>
+<td><center>Automation</td>
+<td><center>I will work on client interview preparation and Also take mock interview.</td>
+<td><center>8</td>
+</tr>
+</table>
+ <p>
+
+ Thanks <br> Team Raptors Prime 
+
+------------------------------------------------------------------------------------------------------------
+ ||  SendReportingMail Section has started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+
+Info : Email Details 
+
+ToMailID : kashyaptushar@seasiainfotech.com
+CCMailID : bhojanehanumant@bugraptors.com;singhamritpal1@bugraptors.com;barsiwaldeepesh@bugraptors.com
+Subject : TestMail Raptors Prime - Alpha Achievers || MOM (19-Feb-2025) 
+EmailBody : Hello Tushar sir, <p>
+ 
+
+Please find today's MOM of the team below : <b> 19-Feb-2025 </b></p>
+<p>
+
+Team Name  : <b> Alpha Achievers </b></p>
+<table border=1><tr>
+<td><b><center>Resource Name</td>
+<td><b><center>Project</td>
+<td><b><center>Task</td>
+<td><b><center>Estimated Hours</td>
+</tr>
+<tr>
+<td><center>Amritpal Singh</td>
+<td><center>Allego</td>
+<td><center>On Leave</td>
+<td><center>0</td>
+</tr>
+<tr>
+<td><center>Deepesh Barsiwal</td>
+<td><center>Automation</td>
+<td><center>I will work on ios test cases of Allego project.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Hanumant Bhojane</td>
+<td><center>Allego</td>
+<td><center>I will work on iOS ticket number ABT-16462.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Suraj Ashok Kadav</td>
+<td><center>Automation</td>
+<td><center>I will work on client interview preparation and Also take mock interview.</td>
+<td><center>8</td>
+</tr>
+</table>
+ <p>
+
+ Thanks <br> Team Raptors Prime 
+ Error : Found Exeption while send reporting mail, Excption details are : The operation failed.  The messaging interfaces have returned an unknown error. If the problem persists, restart Outlook. The operation failed. An object cannot be found.
+
+
+Error : Exception found while send Failure Mail, Exception Details are : The operation failed.  The messaging interfaces have returned an unknown error. If the problem persists, restart Outlook. The operation failed. An object cannot be found.
