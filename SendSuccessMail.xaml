@@ -114,7 +114,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="382,165" sap2010:WorkflowViewState.IdRef="AppendLine_1" Text="&#xD;&#xA;------------------------------------------------------------------------------------------------------------&#xD;&#xA; ||  SendSuccessMail Section has Started  ||&#xD;&#xA;------------------------------------------------------------------------------------------------------------&#xD;&#xA;&#xD;&#xA;" UseDefaultEncoding="False">
+          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="382,165" sap2010:WorkflowViewState.IdRef="AppendLine_1" Text="&#xA;------------------------------------------------------------------------------------------------------------&#xA; ||  SendSuccessMail Section has Started  ||&#xA;------------------------------------------------------------------------------------------------------------&#xA;&#xA;" UseDefaultEncoding="False">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -122,7 +122,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:AppendLine>
-          <ui:SendOutlookMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Account="[in_Config(&quot;FromMailID&quot;).ToString]" Body=" MOM Status mail has been sent successfully, Please find log file in the attachment Section, Thank You" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="382,178" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" Importance="Normal" IsBodyHtml="True" IsDraft="False" Sensitivity="Normal" SentOnBehalfOfName="[in_Config(&quot;MailBehalfOFName&quot;).ToString.Replace(&quot;,&quot;,&quot; &quot;)]" Subject="[&quot; Success || Send MOM Status || Date : &quot;+ &quot; (&quot;+in_ReportingDate+&quot;) &quot;]" To="[in_Config(&quot;ToMailID&quot;).ToString]" UseISConnection="True">
+          <ui:SendOutlookMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Account="[in_Config(&quot;FromMailID&quot;).ToString]" Body=" MOM Status mail has been sent successfully, Please find log file in the attachment Section, Thank You" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="382,178" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" Importance="Normal" IsBodyHtml="True" IsDraft="False" Sensitivity="Normal" Subject="[&quot; Success || Send MOM Status || Date : &quot;+ &quot; (&quot;+in_ReportingDate+&quot;) &quot;]" To="[in_Config(&quot;FromMailID&quot;).ToString]" UseISConnection="True">
             <ui:SendOutlookMail.ConnectionDetailsBackupSlot>
               <usau:BackupSlot x:TypeArguments="umae:ConnectionDetails" StoredValue="{x:Null}">
                 <usau:BackupSlot.BackupValues>
@@ -142,7 +142,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:SendOutlookMail>
-          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="382,156" sap2010:WorkflowViewState.IdRef="AppendLine_2" Text="&#xD;&#xA;------------------------------------------------------------------------------------------------------------&#xD;&#xA; || Sucees : Report Mail has been send Sucessfully.........  ||&#xD;&#xA;------------------------------------------------------------------------------------------------------------&#xD;&#xA;&#xD;&#xA;" UseDefaultEncoding="False">
+          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="382,156" sap2010:WorkflowViewState.IdRef="AppendLine_2" Text="&#xA;------------------------------------------------------------------------------------------------------------&#xA; || Sucees : Report Mail has been send Sucessfully.........  ||&#xA;------------------------------------------------------------------------------------------------------------&#xA;&#xA;" UseDefaultEncoding="False">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -164,7 +164,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="382,165" sap2010:WorkflowViewState.IdRef="AppendLine_3" Text="[&quot; &#xD;&#xA;&#xD;&#xA;Error : Exception found while SendSuccessMail, Exception details are : &quot;+exception.Message]" UseDefaultEncoding="False">
+              <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="382,165" sap2010:WorkflowViewState.IdRef="AppendLine_3" Text="[&quot; &#xA;&#xA;Error : Exception found while SendSuccessMail, Exception details are : &quot;+exception.Message]" UseDefaultEncoding="False">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>

@@ -1,4 +1,4 @@
-﻿ Log File has been created : Log File Created Successfully  - 19-Feb-2025
+﻿ Log File has been created : Log File Created Successfully  - 20-Feb-2025
 
 ------------------------------------------------------------------------------------------------------------
  ||  InitAllApplication Section Started  ||
@@ -17,9 +17,9 @@ Info : key  : MailBehalfOFName value : Suraj,Kadav
 
 Info : key  : ToMailID value : kashyaptushar@seasiainfotech.com
 
-Info : key  : CCMailID value : bhojanehanumant@bugraptors.com;singhamritpal1@bugraptors.com;barsiwaldeepesh@bugraptors.com
+Info : key  : CCMailID value : pgoel@seasiainfotech.com;yashu@bugraptors.com;bhojanehanumant@bugraptors.com
 
-Info : key  : MailSubject value : TestMail,Raptors,Prime,-,Alpha,Achievers,||,MOM
+Info : key  : MailSubject value : Raptors,Prime,-,Alpha,Achievers,||,MOM
 
 Info : key  : MOMFileURL value : https://1drv.ms/x/s!AjeqBYdtkSAZam3jKint2l742sE?e=5aTKUP
 
@@ -53,16 +53,16 @@ Info : MOM Status Sheet has been downloaded at location : C:\Users\sakadav\Docum
 
 
 
-Info : HTMLMailBody File Name : 19-Feb-2025
+Info : HTMLMailBody File Name : 20-Feb-2025
  
 Info : HTMLMailBody file has been created at location : C:\Users\sakadav\Documents\UiPath\MOM_Robot\HTMLTableFile\
  
 Info : HTML Table format with status data has been created
 
-Info : HTML Mail Body file has read from location : C:\Users\sakadav\Documents\UiPath\MOM_Robot\HTMLTableFile\19-Feb-2025.txt And Data is Hello Tushar sir, <p>
+Info : HTML Mail Body file has read from location : C:\Users\sakadav\Documents\UiPath\MOM_Robot\HTMLTableFile\20-Feb-2025.txt And Data is Hello Tushar sir, <p>
  
 
-Please find today's MOM of the team below : <b> 19-Feb-2025 </b></p>
+Please find today's MOM of the team below : <b> 20-Feb-2025 </b></p>
 <p>
 
 Team Name  : <b> Alpha Achievers </b></p>
@@ -75,8 +75,8 @@ Team Name  : <b> Alpha Achievers </b></p>
 <tr>
 <td><center>Amritpal Singh</td>
 <td><center>Allego</td>
-<td><center>On Leave</td>
-<td><center>0</td>
+<td><center>I will continue working on the automation of assigned CI tickets(ACI-2896).</td>
+<td><center>8</td>
 </tr>
 <tr>
 <td><center>Deepesh Barsiwal</td>
@@ -87,19 +87,19 @@ Team Name  : <b> Alpha Achievers </b></p>
 <tr>
 <td><center>Hanumant Bhojane</td>
 <td><center>Allego</td>
-<td><center>I will work on iOS ticket number ABT-16462.</td>
+<td><center>I will work on iOS regression fixes and will create PR also After scrum i will connect with Amrit for my doubts on allego</td>
 <td><center>8</td>
 </tr>
 <tr>
 <td><center>Suraj Ashok Kadav</td>
 <td><center>Automation</td>
-<td><center>I will work on client interview preparation and Also take mock interview.</td>
+<td><center>I will work on client interview preparation and also attain client interview.</td>
 <td><center>8</td>
 </tr>
 </table>
  <p>
 
- Thanks <br> Team Raptors Prime 
+ Thanks <br> Suraj Kadav 
 
 ------------------------------------------------------------------------------------------------------------
  ||  SendReportingMail Section has started  ||
@@ -109,13 +109,14 @@ Team Name  : <b> Alpha Achievers </b></p>
 
 Info : Email Details 
 
+FromMailID : sakadav@bugraptors.com
 ToMailID : kashyaptushar@seasiainfotech.com
-CCMailID : bhojanehanumant@bugraptors.com;singhamritpal1@bugraptors.com;barsiwaldeepesh@bugraptors.com
-Subject : TestMail Raptors Prime - Alpha Achievers || MOM (19-Feb-2025) 
+CCMailID : pgoel@seasiainfotech.com;yashu@bugraptors.com;bhojanehanumant@bugraptors.com
+Subject : Raptors Prime - Alpha Achievers || MOM (20-Feb-2025) 
 EmailBody : Hello Tushar sir, <p>
  
 
-Please find today's MOM of the team below : <b> 19-Feb-2025 </b></p>
+Please find today's MOM of the team below : <b> 20-Feb-2025 </b></p>
 <p>
 
 Team Name  : <b> Alpha Achievers </b></p>
@@ -128,8 +129,8 @@ Team Name  : <b> Alpha Achievers </b></p>
 <tr>
 <td><center>Amritpal Singh</td>
 <td><center>Allego</td>
-<td><center>On Leave</td>
-<td><center>0</td>
+<td><center>I will continue working on the automation of assigned CI tickets(ACI-2896).</td>
+<td><center>8</td>
 </tr>
 <tr>
 <td><center>Deepesh Barsiwal</td>
@@ -140,20 +141,30 @@ Team Name  : <b> Alpha Achievers </b></p>
 <tr>
 <td><center>Hanumant Bhojane</td>
 <td><center>Allego</td>
-<td><center>I will work on iOS ticket number ABT-16462.</td>
+<td><center>I will work on iOS regression fixes and will create PR also After scrum i will connect with Amrit for my doubts on allego</td>
 <td><center>8</td>
 </tr>
 <tr>
 <td><center>Suraj Ashok Kadav</td>
 <td><center>Automation</td>
-<td><center>I will work on client interview preparation and Also take mock interview.</td>
+<td><center>I will work on client interview preparation and also attain client interview.</td>
 <td><center>8</td>
 </tr>
 </table>
  <p>
 
- Thanks <br> Team Raptors Prime 
- Error : Found Exeption while send reporting mail, Excption details are : The operation failed.  The messaging interfaces have returned an unknown error. If the problem persists, restart Outlook. The operation failed. An object cannot be found.
+ Thanks <br> Suraj Kadav 
 
 
-Error : Exception found while send Failure Mail, Exception Details are : The operation failed.  The messaging interfaces have returned an unknown error. If the problem persists, restart Outlook. The operation failed. An object cannot be found.
+Sucess : Reporting Mail has been send sucessfully 
+
+------------------------------------------------------------------------------------------------------------
+ ||  SendSuccessMail Section has Started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------------
+ || Sucees : Report Mail has been send Sucessfully.........  ||
+------------------------------------------------------------------------------------------------------------
+
