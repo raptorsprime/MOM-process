@@ -1,0 +1,556 @@
+﻿ Log File has been created : Log File Created Successfully  - 20-Mar-2025
+
+------------------------------------------------------------------------------------------------------------
+ ||  InitAllApplication Section Started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+Info : ConfigFile has been read from Storage bucket : Path ConfigFile.txt Name :  MoM_Robot_ConfigFile
+
+Info : ConfigFile String Data convert into Data Table : 7
+
+Info : key  : TeamName value : Alpha,Achievers
+
+Info : key  : FromMailID value : sakadav@bugraptors.com
+
+Info : key  : MailBehalfOFName value : Suraj,Kadav
+
+Info : key  : ToMailID value : kashyaptushar@seasiainfotech.com
+
+Info : key  : CCMailID value : pgoel@seasiainfotech.com;yashu@bugraptors.com;bhojanehanumant@bugraptors.com;kapilaharsha@seasiainfotech.com;lambanitin@bugraptors.com;raghavvashishth@seasiainfotech.com;sharmashaifali@seasiainfotech.com
+
+Info : key  : MailSubject value : Raptors,Prime,-,||,MOM
+
+Info : key  : MOMFileURL value : https://1drv.ms/x/s!AjeqBYdtkSAZam3jKint2l742sE?e=5aTKUP
+
+------------------------------------------------------------------------------------------------------------
+ ||  KillAllApplication Section has Started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+
+Info : Outlook Application has been closed 
+
+------------------------------------------------------------------------------------------------------------
+ ||  InitAllApplication Section has Started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+
+Info : Outlook Application has been Started 
+
+------------------------------------------------------------------------------------------------------------
+ ||  GenerateReportingData Section has Started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+
+Info : MOM Status Sheet has been downloaded at location : C:\Users\sakadav\Documents\UiPath\MOM_Robot\MomStatusFile\
+
+------------------------------------------------------------------------------------------------------------
+ ||  GenerateHTMLMailBody Section has Started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+
+Info : HTMLMailBody File Name : 20-Mar-2025
+ 
+Info : HTMLMailBody file has been created at location : C:\Users\sakadav\Documents\UiPath\MOM_Robot\HTMLTableFile\
+ 
+Info : HTML Table format with status data has been created
+
+Info : HTML Mail Body file has read from location : C:\Users\sakadav\Documents\UiPath\MOM_Robot\HTMLTableFile\20-Mar-2025.txt And Data is Hello Tushar sir, <p>
+ 
+
+Please find today's MOM of the team below : <b> 20-Mar-2025 </b></p>
+<p>
+
+Team Name  : <b> The AutoMates </b></p>
+<table border=1><tr>
+<td><b><center>Resource Name</td>
+<td><b><center>Project</td>
+<td><b><center>Task</td>
+<td><b><center>Estimated Hours</td>
+</tr>
+<tr>
+<td><center>Diwakar Thakur</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will do the regression on  ATT Dealer
+Will do the regression on ATT Sofi
+Will connect with regression team</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Shaifali Sharma</td>
+<td><center>Assurant-DLS</td>
+<td><center>Reviewing PR, Team Queries, Work with coverage sheet</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Adesh Sharawat</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will do the regression for ATT B2B, B2B Verizon and Tracfone.
+Will execute b2b kitting feed scenarios.
+Will do the debug and rerun failures.
+Will connect with regression team.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Arokiya Renit D</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will work on Regression 25.2 for Google, Target & Koodo</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Himanshu</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will work on Regression 25.2
+Team connects</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Sourav Monga</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will continue work on CEW regression
+Will connect with Sangeeta for the regression</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Dipak Chougule</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will work on Regression 25.2
+Will debug and rerun failures
+ATT Opus c care and vzw PIF</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Mohit Kumar</td>
+<td><center>Assurant-DLS</td>
+<td><center>Working on Regression ATT CE Corporate 25.2 release and validate reports
+Working on Regression for Freedom 25.2 release and validate reports
+Will connect with regression team</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Sangeeta Mehra</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will work on regression for CEW
+Will connect with Sourav sir for my queries
+Will connect with regression team</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Arshdeep Singh</td>
+<td><center>Assurant-DLS
+Pocket Geek</td>
+<td><center>Will work on Device Condition session migration to item details for both CE and CEW.
+Will take scheduled interview.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Arshdeep Singh</td>
+<td><center>Assurant-DLS
+Pocket Geek</td>
+<td><center></td>
+<td><center>8</td>
+</tr>
+</table>
+<p>
+
+Team Name  : <b> Test Titans </b></p>
+<table border=1><tr>
+<td><b><center>Resource Name</td>
+<td><b><center>Project</td>
+<td><b><center>Task</td>
+<td><b><center>Estimated Hours</td>
+</tr>
+<tr>
+<td><center>Rishab</td>
+<td><center>Bugbot</td>
+<td><center>Requirements gathering in assigning roles and privileges to the user from admin panel and api creation.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Akhil</td>
+<td><center>EasyCrypto</td>
+<td><center>Working on functional testing on Easy Crypto application.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Mohit</td>
+<td><center>Allego</td>
+<td><center>Working on the test case execution</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Harsha Kapila</td>
+<td><center>Assurant</td>
+<td><center>Regression,PBIs, Automation</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Jasdeep Singh</td>
+<td><center>N/A</td>
+<td><center>VAPT on Cerina Admin Web Portal</td>
+<td><center>8</td>
+</tr>
+</table>
+<p>
+
+Team Name  : <b> PerfOps Squad </b></p>
+<table border=1><tr>
+<td><b><center>Resource Name</td>
+<td><b><center>Project</td>
+<td><b><center>Task</td>
+<td><b><center>Estimated Hours</td>
+</tr>
+<tr>
+<td><center>Raghav</td>
+<td><center>Assurant</td>
+<td><center>WIll work on regression execution for 25.2 release.
+Will work on Executions on AWS Distributed load test Environmnet.
+Will attend morning and Evening Scrum.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Abhishek</td>
+<td><center>Assurant
+(Backup resource)&BugBot</td>
+<td><center>Will do testing of auto form filler module
+Will write test cases for Reptor Gen module.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Aman</td>
+<td><center>Assurant
+(Backup resource) & Ceretax</td>
+<td><center>will do deployments on Auto & Perf if required, will work on the user stories provided by Anurag for ceretax project.</td>
+<td><center>8</td>
+</tr>
+</table>
+<p>
+
+Team Name  : <b> Alpha Achievers </b></p>
+<table border=1><tr>
+<td><b><center>Resource Name</td>
+<td><b><center>Project</td>
+<td><b><center>Task</td>
+<td><b><center>Estimated Hours</td>
+</tr>
+<tr>
+<td><center>Amritpal Singh</td>
+<td><center>Allego</td>
+<td><center>I Will review and fix CI and Refract regression failures</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Deepesh Barsiwal</td>
+<td><center>Automation</td>
+<td><center>Today I will prepare for interview.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Hanumant Bhojane</td>
+<td><center>Allego</td>
+<td><center>I will add stability updates for recent iOS smoke and regression failures</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Suraj Ashok Kadav</td>
+<td><center>Automation</td>
+<td><center>I will work on Client setup and Explore PG Home Applications.</td>
+<td><center>8</td>
+</tr>
+</table>
+<p>
+
+Team Name  : <b> Tester Army </b></p>
+<table border=1><tr>
+<td><b><center>Resource Name</td>
+<td><b><center>Project</td>
+<td><b><center>Task</td>
+<td><b><center>Estimated Hours</td>
+</tr>
+<tr>
+<td><center>Gagan Sharma</td>
+<td><center>Tevio</td>
+<td><center>Create Test Cases for Admin , Delivery Management module</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Devvrat Soam</td>
+<td><center>Scramble</td>
+<td><center>I am working on User as a manager account and updating test cases.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Nitin Lamba</td>
+<td><center>Scramble</td>
+<td><center></td>
+<td><center>8</td>
+</tr>
+</table>
+ <p>
+
+ Thanks <br> Suraj Kadav 
+
+------------------------------------------------------------------------------------------------------------
+ ||  SendReportingMail Section has started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+
+Info : Email Details 
+
+FromMailID : sakadav@bugraptors.com
+ToMailID : kashyaptushar@seasiainfotech.com
+CCMailID : pgoel@seasiainfotech.com;yashu@bugraptors.com;bhojanehanumant@bugraptors.com;kapilaharsha@seasiainfotech.com;lambanitin@bugraptors.com;raghavvashishth@seasiainfotech.com;sharmashaifali@seasiainfotech.com
+Subject : Raptors Prime - || MOM (20-Mar-2025) 
+EmailBody : Hello Tushar sir, <p>
+ 
+
+Please find today's MOM of the team below : <b> 20-Mar-2025 </b></p>
+<p>
+
+Team Name  : <b> The AutoMates </b></p>
+<table border=1><tr>
+<td><b><center>Resource Name</td>
+<td><b><center>Project</td>
+<td><b><center>Task</td>
+<td><b><center>Estimated Hours</td>
+</tr>
+<tr>
+<td><center>Diwakar Thakur</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will do the regression on  ATT Dealer
+Will do the regression on ATT Sofi
+Will connect with regression team</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Shaifali Sharma</td>
+<td><center>Assurant-DLS</td>
+<td><center>Reviewing PR, Team Queries, Work with coverage sheet</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Adesh Sharawat</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will do the regression for ATT B2B, B2B Verizon and Tracfone.
+Will execute b2b kitting feed scenarios.
+Will do the debug and rerun failures.
+Will connect with regression team.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Arokiya Renit D</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will work on Regression 25.2 for Google, Target & Koodo</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Himanshu</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will work on Regression 25.2
+Team connects</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Sourav Monga</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will continue work on CEW regression
+Will connect with Sangeeta for the regression</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Dipak Chougule</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will work on Regression 25.2
+Will debug and rerun failures
+ATT Opus c care and vzw PIF</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Mohit Kumar</td>
+<td><center>Assurant-DLS</td>
+<td><center>Working on Regression ATT CE Corporate 25.2 release and validate reports
+Working on Regression for Freedom 25.2 release and validate reports
+Will connect with regression team</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Sangeeta Mehra</td>
+<td><center>Assurant-DLS</td>
+<td><center>Will work on regression for CEW
+Will connect with Sourav sir for my queries
+Will connect with regression team</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Arshdeep Singh</td>
+<td><center>Assurant-DLS
+Pocket Geek</td>
+<td><center>Will work on Device Condition session migration to item details for both CE and CEW.
+Will take scheduled interview.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Arshdeep Singh</td>
+<td><center>Assurant-DLS
+Pocket Geek</td>
+<td><center></td>
+<td><center>8</td>
+</tr>
+</table>
+<p>
+
+Team Name  : <b> Test Titans </b></p>
+<table border=1><tr>
+<td><b><center>Resource Name</td>
+<td><b><center>Project</td>
+<td><b><center>Task</td>
+<td><b><center>Estimated Hours</td>
+</tr>
+<tr>
+<td><center>Rishab</td>
+<td><center>Bugbot</td>
+<td><center>Requirements gathering in assigning roles and privileges to the user from admin panel and api creation.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Akhil</td>
+<td><center>EasyCrypto</td>
+<td><center>Working on functional testing on Easy Crypto application.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Mohit</td>
+<td><center>Allego</td>
+<td><center>Working on the test case execution</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Harsha Kapila</td>
+<td><center>Assurant</td>
+<td><center>Regression,PBIs, Automation</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Jasdeep Singh</td>
+<td><center>N/A</td>
+<td><center>VAPT on Cerina Admin Web Portal</td>
+<td><center>8</td>
+</tr>
+</table>
+<p>
+
+Team Name  : <b> PerfOps Squad </b></p>
+<table border=1><tr>
+<td><b><center>Resource Name</td>
+<td><b><center>Project</td>
+<td><b><center>Task</td>
+<td><b><center>Estimated Hours</td>
+</tr>
+<tr>
+<td><center>Raghav</td>
+<td><center>Assurant</td>
+<td><center>WIll work on regression execution for 25.2 release.
+Will work on Executions on AWS Distributed load test Environmnet.
+Will attend morning and Evening Scrum.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Abhishek</td>
+<td><center>Assurant
+(Backup resource)&BugBot</td>
+<td><center>Will do testing of auto form filler module
+Will write test cases for Reptor Gen module.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Aman</td>
+<td><center>Assurant
+(Backup resource) & Ceretax</td>
+<td><center>will do deployments on Auto & Perf if required, will work on the user stories provided by Anurag for ceretax project.</td>
+<td><center>8</td>
+</tr>
+</table>
+<p>
+
+Team Name  : <b> Alpha Achievers </b></p>
+<table border=1><tr>
+<td><b><center>Resource Name</td>
+<td><b><center>Project</td>
+<td><b><center>Task</td>
+<td><b><center>Estimated Hours</td>
+</tr>
+<tr>
+<td><center>Amritpal Singh</td>
+<td><center>Allego</td>
+<td><center>I Will review and fix CI and Refract regression failures</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Deepesh Barsiwal</td>
+<td><center>Automation</td>
+<td><center>Today I will prepare for interview.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Hanumant Bhojane</td>
+<td><center>Allego</td>
+<td><center>I will add stability updates for recent iOS smoke and regression failures</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Suraj Ashok Kadav</td>
+<td><center>Automation</td>
+<td><center>I will work on Client setup and Explore PG Home Applications.</td>
+<td><center>8</td>
+</tr>
+</table>
+<p>
+
+Team Name  : <b> Tester Army </b></p>
+<table border=1><tr>
+<td><b><center>Resource Name</td>
+<td><b><center>Project</td>
+<td><b><center>Task</td>
+<td><b><center>Estimated Hours</td>
+</tr>
+<tr>
+<td><center>Gagan Sharma</td>
+<td><center>Tevio</td>
+<td><center>Create Test Cases for Admin , Delivery Management module</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Devvrat Soam</td>
+<td><center>Scramble</td>
+<td><center>I am working on User as a manager account and updating test cases.</td>
+<td><center>8</td>
+</tr>
+<tr>
+<td><center>Nitin Lamba</td>
+<td><center>Scramble</td>
+<td><center></td>
+<td><center>8</td>
+</tr>
+</table>
+ <p>
+
+ Thanks <br> Suraj Kadav 
+
+
+Sucess : Reporting Mail has been send sucessfully 
+
+------------------------------------------------------------------------------------------------------------
+ ||  SendSuccessMail Section has Started  ||
+------------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------------
+ || Sucees : Report Mail has been send Sucessfully.........  ||
+------------------------------------------------------------------------------------------------------------
+
