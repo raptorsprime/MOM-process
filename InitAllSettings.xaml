@@ -102,15 +102,15 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="InitAllSettings" sap:VirtualizedContainerService.HintSize="1002,2367" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="InitAllSettings" sap:VirtualizedContainerService.HintSize="892.0000000000001,2369.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch - InitAllSettings" sap:VirtualizedContainerService.HintSize="508,2344" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch - InitAllSettings" sap:VirtualizedContainerService.HintSize="507.2,2346.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence DisplayName="InitAllSettings" sap:VirtualizedContainerService.HintSize="506,1752" sap2010:WorkflowViewState.IdRef="Sequence_4">
+        <Sequence DisplayName="InitAllSettings" sap:VirtualizedContainerService.HintSize="505.6,1755.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="str_ConfigFile" />
             <Variable x:TypeArguments="sd:DataTable" Name="dt_ConfigData" />
@@ -120,7 +120,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="472,165" sap2010:WorkflowViewState.IdRef="AppendLine_1" Text="&#xD;&#xA;------------------------------------------------------------------------------------------------------------&#xD;&#xA; ||  InitAllApplication Section Started  ||&#xD;&#xA;------------------------------------------------------------------------------------------------------------&#xD;&#xA;&#xD;&#xA;" UseDefaultEncoding="False">
+          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="472,166.4" sap2010:WorkflowViewState.IdRef="AppendLine_1" Text="&#xA;------------------------------------------------------------------------------------------------------------&#xA; ||  InitAllApplication Section Started  ||&#xA;------------------------------------------------------------------------------------------------------------&#xA;&#xA;" UseDefaultEncoding="False">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -128,7 +128,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:AppendLine>
-          <ucas:ReadStorageText TimeoutMS="{x:Null}" DisplayName="Read Storage Text" FolderPath="Demo_Projects" sap:VirtualizedContainerService.HintSize="472,165" sap2010:WorkflowViewState.IdRef="ReadStorageText_1" Path="ConfigFile.txt" Result="[str_ConfigFile]" StorageBucketName="MoM_Robot_ConfigFile">
+          <ucas:ReadStorageText TimeoutMS="{x:Null}" DisplayName="Read Storage Text" FolderPath="PrimeAutomation_Process" sap:VirtualizedContainerService.HintSize="472,166.4" sap2010:WorkflowViewState.IdRef="ReadStorageText_1" Path="ConfigFile.txt" Result="[str_ConfigFile]" StorageBucketName="MoM_Robot_ConfigFile">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -136,7 +136,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ucas:ReadStorageText>
-          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="472,165" sap2010:WorkflowViewState.IdRef="AppendLine_2" Text="[&quot;Info : ConfigFile has been read from Storage bucket : Path &quot;+&quot;ConfigFile.txt&quot; +&quot; Name : &quot;+&quot; MoM_Robot_ConfigFile&quot;]" UseDefaultEncoding="False">
+          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="472,166.4" sap2010:WorkflowViewState.IdRef="AppendLine_2" Text="[&quot;Info : ConfigFile has been read from Storage bucket : Path &quot;+&quot;ConfigFile.txt&quot; +&quot; Name : &quot;+&quot; MoM_Robot_ConfigFile&quot;]" UseDefaultEncoding="False">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -152,7 +152,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:GenerateDataTable>
-          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="472,165" sap2010:WorkflowViewState.IdRef="AppendLine_3" Text="[&quot;&#xD;&#xA;Info : ConfigFile String Data convert into Data Table : &quot;+dt_ConfigData.RowCount.ToString]" UseDefaultEncoding="False">
+          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="472,165" sap2010:WorkflowViewState.IdRef="AppendLine_3" Text="[&quot;&#xA;Info : ConfigFile String Data convert into Data Table : &quot;+dt_ConfigData.RowCount.ToString]" UseDefaultEncoding="False">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -222,7 +222,7 @@
                       </Sequence>
                     </If.Else>
                   </If>
-                  <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="436,156" sap2010:WorkflowViewState.IdRef="AppendLine_5" Text="[&quot;&#xD;&#xA;Info : key  : &quot;+CurrentRow(&quot;Name&quot;).ToString.Trim+&quot; value : &quot;+CurrentRow(&quot;Value&quot;).ToString]" UseDefaultEncoding="False">
+                  <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="436,156" sap2010:WorkflowViewState.IdRef="AppendLine_5" Text="[&quot;&#xA;Info : key  : &quot;+CurrentRow(&quot;Name&quot;).ToString.Trim+&quot; value : &quot;+CurrentRow(&quot;Value&quot;).ToString]" UseDefaultEncoding="False">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -254,7 +254,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="472,165" sap2010:WorkflowViewState.IdRef="AppendLine_6" Text="[&quot;&#xD;&#xA;Error : Exception found while InitAllSettings, Exception Details are : &quot;+exception.Message]" UseDefaultEncoding="False">
+              <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="472,165" sap2010:WorkflowViewState.IdRef="AppendLine_6" Text="[&quot;&#xA;Error : Exception found while InitAllSettings, Exception Details are : &quot;+exception.Message]" UseDefaultEncoding="False">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>

@@ -129,15 +129,15 @@
       <AssemblyReference>UiPath.MicrosoftOffice365</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="GenerateHTMLMailBody" sap:VirtualizedContainerService.HintSize="1002,3746" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="GenerateHTMLMailBody" sap:VirtualizedContainerService.HintSize="892.0000000000001,3762.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch - GenerateHTMLMailBody" sap:VirtualizedContainerService.HintSize="590,3723" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch - GenerateHTMLMailBody" sap:VirtualizedContainerService.HintSize="587.2,3739.2" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence DisplayName="GenerateHTMLMailBody" sap:VirtualizedContainerService.HintSize="588,3131" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="GenerateHTMLMailBody" sap:VirtualizedContainerService.HintSize="585.6,3144.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="fileName" />
             <Variable x:TypeArguments="upr:ILocalResource" Name="file_HTMLEmailBody" />
@@ -148,7 +148,7 @@
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="554,165" sap2010:WorkflowViewState.IdRef="AppendLine_10" Text="&#xA;------------------------------------------------------------------------------------------------------------&#xA; ||  GenerateHTMLMailBody Section has Started  ||&#xA;------------------------------------------------------------------------------------------------------------&#xA;&#xA;" UseDefaultEncoding="False">
+          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="552,166.4" sap2010:WorkflowViewState.IdRef="AppendLine_10" Text="&#xA;------------------------------------------------------------------------------------------------------------&#xA; ||  GenerateHTMLMailBody Section has Started  ||&#xA;------------------------------------------------------------------------------------------------------------&#xA;&#xA;" UseDefaultEncoding="False">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -156,7 +156,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:AppendLine>
-          <Assign sap:VirtualizedContainerService.HintSize="554,114" sap2010:WorkflowViewState.IdRef="Assign_3">
+          <Assign sap:VirtualizedContainerService.HintSize="552,113.6" sap2010:WorkflowViewState.IdRef="Assign_3">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[fileName]</OutArgument>
             </Assign.To>
@@ -170,7 +170,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </Assign>
-          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="554,165" sap2010:WorkflowViewState.IdRef="AppendLine_11" Text="[&quot;&#xA;Info : HTMLMailBody File Name : &quot;+fileName]" UseDefaultEncoding="False">
+          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="552,166.4" sap2010:WorkflowViewState.IdRef="AppendLine_11" Text="[&quot;&#xA;Info : HTMLMailBody File Name : &quot;+fileName]" UseDefaultEncoding="False">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -178,7 +178,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:AppendLine>
-          <ui:CreateFile ContinueOnError="{x:Null}" DisplayName="Create File" sap:VirtualizedContainerService.HintSize="554,57" sap2010:WorkflowViewState.IdRef="CreateFile_1" Name="[fileName+&quot;.txt&quot;]" Output="[file_HTMLEmailBody]" Path="[in_HTMLEmailBodyFileFolderPath]">
+          <ui:CreateFile ContinueOnError="{x:Null}" DisplayName="Create File" sap:VirtualizedContainerService.HintSize="552,56.8" sap2010:WorkflowViewState.IdRef="CreateFile_1" Name="[fileName+&quot;.txt&quot;]" Output="[file_HTMLEmailBody]" Path="[in_HTMLEmailBodyFileFolderPath]">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -186,7 +186,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:CreateFile>
-          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="554,165" sap2010:WorkflowViewState.IdRef="AppendLine_4" Text="[&quot; &#xA;Info : HTMLMailBody file has been created at location : &quot;+in_HTMLEmailBodyFileFolderPath]" UseDefaultEncoding="False">
+          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="552,166.4" sap2010:WorkflowViewState.IdRef="AppendLine_4" Text="[&quot; &#xA;Info : HTMLMailBody file has been created at location : &quot;+in_HTMLEmailBodyFileFolderPath]" UseDefaultEncoding="False">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -194,25 +194,25 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:AppendLine>
-          <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="554,1748" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_2">
+          <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="552,1754.4" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_2">
             <ueab:ExcelProcessScopeX.Body>
               <ActivityAction x:TypeArguments="ui:IExcelProcess">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,1629" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518.4,1636" sap2010:WorkflowViewState.IdRef="Sequence_17">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="486,1569" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[in_MOMStatusFilePath]">
+                  <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="484.8,1576" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[in_MOMStatusFilePath]">
                     <ueab:ExcelApplicationCard.Body>
                       <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="452,1277" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="451.2,1283.2" sap2010:WorkflowViewState.IdRef="Sequence_15">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="scg:List(x:String)" Name="str_Sheets" />
                           </Sequence.Variables>
@@ -221,9 +221,9 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Delay Duration="00:02:00" sap:VirtualizedContainerService.HintSize="418,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
-                          <ui:ExcelGetWorkbookSheets DisplayName="Get Workbook Sheets" sap:VirtualizedContainerService.HintSize="418,57" sap2010:WorkflowViewState.IdRef="ExcelGetWorkbookSheets_1" Sheets="[str_Sheets]" />
-                          <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="[in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot;]" sap:VirtualizedContainerService.HintSize="418,165" sap2010:WorkflowViewState.IdRef="AppendLine_14" Text="[&quot;Hello Tushar sir, &lt;p&gt;&#xA; &#xA;&#xA;Please find today's MOM of the team below : &lt;b&gt; &quot;+fileName+&quot; &lt;/b&gt;&lt;/p&gt;&quot;]" UseDefaultEncoding="False">
+                          <Delay Duration="00:02:00" sap:VirtualizedContainerService.HintSize="417.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                          <ui:ExcelGetWorkbookSheets DisplayName="Get Workbook Sheets" sap:VirtualizedContainerService.HintSize="417.6,56.8" sap2010:WorkflowViewState.IdRef="ExcelGetWorkbookSheets_1" Sheets="[str_Sheets]" />
+                          <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="[in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot;]" sap:VirtualizedContainerService.HintSize="417.6,166.4" sap2010:WorkflowViewState.IdRef="AppendLine_14" Text="[&quot;Hello Tushar sir, &lt;p&gt;&#xA; &#xA;&#xA;Please find today's MOM of the team below : &lt;b&gt; &quot;+fileName+&quot; &lt;/b&gt;&lt;/p&gt;&quot;]" UseDefaultEncoding="False">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -231,13 +231,13 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:AppendLine>
-                          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="418,873" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[str_Sheets]">
+                          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="417.6,877.6" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[str_Sheets]">
                             <ui:ForEach.Body>
                               <ActivityAction x:TypeArguments="x:String">
                                 <ActivityAction.Argument>
                                   <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
                                 </ActivityAction.Argument>
-                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,752" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,756" sap2010:WorkflowViewState.IdRef="Sequence_16">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="sd:DataTable" Name="dt_MOMStatus" />
                                     <Variable x:TypeArguments="x:Object" Name="res" />
@@ -247,16 +247,16 @@
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:ExcelReadRange AddHeaders="True" DataTable="[dt_MOMStatus]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="382,92" sap2010:WorkflowViewState.IdRef="ExcelReadRange_2" SheetName="[currentText]">
+                                  <ui:ExcelReadRange AddHeaders="True" DataTable="[dt_MOMStatus]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="382.4,92" sap2010:WorkflowViewState.IdRef="ExcelReadRange_2" SheetName="[currentText]">
                                     <ui:ExcelReadRange.Range>
                                       <InArgument x:TypeArguments="x:String">
                                         <Literal x:TypeArguments="x:String" Value="" />
                                       </InArgument>
                                     </ui:ExcelReadRange.Range>
                                   </ui:ExcelReadRange>
-                                  <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="[in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot;]" sap:VirtualizedContainerService.HintSize="382,165" sap2010:WorkflowViewState.IdRef="AppendLine_12" Text="[&quot;&lt;p&gt;&#xA;&#xA;Team Name  : &lt;b&gt; &quot;+currentText+&quot; &lt;/b&gt;&lt;/p&gt;&quot;]" UseDefaultEncoding="False" />
-                                  <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="[in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot;]" sap:VirtualizedContainerService.HintSize="382,165" sap2010:WorkflowViewState.IdRef="AppendLine_15" Text="&lt;table border=1&gt;&lt;tr&gt;&#xA;&lt;td&gt;&lt;b&gt;&lt;center&gt;Resource Name&lt;/td&gt;&#xA;&lt;td&gt;&lt;b&gt;&lt;center&gt;Project&lt;/td&gt;&#xA;&lt;td&gt;&lt;b&gt;&lt;center&gt;Task&lt;/td&gt;&#xA;&lt;td&gt;&lt;b&gt;&lt;center&gt;Estimated Hours&lt;/td&gt;&#xA;&lt;/tr&gt;" UseDefaultEncoding="False" />
-                                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_MOMStatus]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+                                  <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="[in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot;]" sap:VirtualizedContainerService.HintSize="382.4,166.4" sap2010:WorkflowViewState.IdRef="AppendLine_12" Text="[&quot;&lt;p&gt;&#xA;&#xA;Team Name  : &lt;b&gt; &quot;+currentText+&quot; &lt;/b&gt;&lt;/p&gt;&quot;]" UseDefaultEncoding="False" />
+                                  <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="[in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot;]" sap:VirtualizedContainerService.HintSize="382.4,166.4" sap2010:WorkflowViewState.IdRef="AppendLine_15" Text="&lt;table border=1&gt;&lt;tr&gt;&#xA;&lt;td&gt;&lt;b&gt;&lt;center&gt;Resource Name&lt;/td&gt;&#xA;&lt;td&gt;&lt;b&gt;&lt;center&gt;Project&lt;/td&gt;&#xA;&lt;td&gt;&lt;b&gt;&lt;center&gt;Task&lt;/td&gt;&#xA;&lt;td&gt;&lt;b&gt;&lt;center&gt;Estimated Hours&lt;/td&gt;&#xA;&lt;/tr&gt;" UseDefaultEncoding="False" />
+                                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_MOMStatus]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
                                     <ui:ForEachRow.Body>
                                       <ActivityAction x:TypeArguments="sd:DataRow">
                                         <ActivityAction.Argument>
@@ -279,7 +279,7 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:ForEachRow>
-                                  <ui:ClearDataTable DataTable="[dt_MOMStatus]" DisplayName="Clear Data Table" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="ClearDataTable_2">
+                                  <ui:ClearDataTable DataTable="[dt_MOMStatus]" DisplayName="Clear Data Table" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="ClearDataTable_2">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -287,7 +287,7 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:ClearDataTable>
-                                  <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="[in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot;]" sap:VirtualizedContainerService.HintSize="382,156" sap2010:WorkflowViewState.IdRef="AppendLine_16" Text="&lt;/table&gt;" UseDefaultEncoding="False" />
+                                  <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="[in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot;]" sap:VirtualizedContainerService.HintSize="382.4,157.6" sap2010:WorkflowViewState.IdRef="AppendLine_16" Text="&lt;/table&gt;" UseDefaultEncoding="False" />
                                 </Sequence>
                               </ActivityAction>
                             </ui:ForEach.Body>
@@ -312,7 +312,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ueab:ExcelProcessScopeX>
-          <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="[in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot;]" sap:VirtualizedContainerService.HintSize="554,165" sap2010:WorkflowViewState.IdRef="AppendLine_17" Text=" &lt;p&gt;&#xA;&#xA; Thanks &lt;br&gt; Suraj Kadav " UseDefaultEncoding="False">
+          <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="[in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot;]" sap:VirtualizedContainerService.HintSize="552,166.4" sap2010:WorkflowViewState.IdRef="AppendLine_17" Text=" &lt;p&gt;&#xD;&#xA;&#xD;&#xA; Thanks &lt;br&gt; Raptors Prime " UseDefaultEncoding="False">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -320,7 +320,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:AppendLine>
-          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="554,165" sap2010:WorkflowViewState.IdRef="AppendLine_5" Text=" &#xA;Info : HTML Table format with status data has been created" UseDefaultEncoding="False">
+          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="552,166.4" sap2010:WorkflowViewState.IdRef="AppendLine_5" Text=" &#xA;Info : HTML Table format with status data has been created" UseDefaultEncoding="False">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -328,7 +328,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:AppendLine>
-          <ui:ReadTextFile File="{x:Null}" Content="[out_HTMLTableData]" DisplayName="Read Text File" FileName="[in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot;]" sap:VirtualizedContainerService.HintSize="554,57" sap2010:WorkflowViewState.IdRef="ReadTextFile_2">
+          <ui:ReadTextFile File="{x:Null}" Content="[out_HTMLTableData]" DisplayName="Read Text File" FileName="[in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot;]" sap:VirtualizedContainerService.HintSize="552,56.8" sap2010:WorkflowViewState.IdRef="ReadTextFile_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -336,7 +336,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:ReadTextFile>
-          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="554,165" sap2010:WorkflowViewState.IdRef="AppendLine_6" Text="[&quot;&#xA;Info : HTML Mail Body file has read from location : &quot; + in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot; +&quot; And Data is &quot;+out_HTMLTableData]" UseDefaultEncoding="False">
+          <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="552,166.4" sap2010:WorkflowViewState.IdRef="AppendLine_6" Text="[&quot;&#xA;Info : HTML Mail Body file has read from location : &quot; + in_HTMLEmailBodyFileFolderPath+fileName+&quot;.txt&quot; +&quot; And Data is &quot;+out_HTMLTableData]" UseDefaultEncoding="False">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -344,7 +344,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:AppendLine>
-          <Assign sap:VirtualizedContainerService.HintSize="554,105" sap2010:WorkflowViewState.IdRef="Assign_4">
+          <Assign sap:VirtualizedContainerService.HintSize="552,104.8" sap2010:WorkflowViewState.IdRef="Assign_4">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[out_FileName]</OutArgument>
             </Assign.To>
@@ -366,13 +366,13 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="588,338" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="585.6,340" sap2010:WorkflowViewState.IdRef="Sequence_4">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="554,165" sap2010:WorkflowViewState.IdRef="AppendLine_8" Text="[&quot; &#xA;Error : Found Exception while GenerateHTMLMailBody, Exception details are :&quot;+exception.Message]" UseDefaultEncoding="False">
+              <ui:AppendLine File="{x:Null}" DisplayName="log" FileName="[in_LogFilePath]" sap:VirtualizedContainerService.HintSize="552,166.4" sap2010:WorkflowViewState.IdRef="AppendLine_8" Text="[&quot; &#xA;Error : Found Exception while GenerateHTMLMailBody, Exception details are :&quot;+exception.Message]" UseDefaultEncoding="False">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -380,13 +380,13 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:AppendLine>
-              <Throw Exception="[new SystemException(&quot; Exception found while Generate HTML Body : &quot; +exception.Message)]" sap:VirtualizedContainerService.HintSize="554,113" sap2010:WorkflowViewState.IdRef="Throw_1" />
+              <Throw Exception="[new SystemException(&quot; Exception found while Generate HTML Body : &quot; +exception.Message)]" sap:VirtualizedContainerService.HintSize="552,113.6" sap2010:WorkflowViewState.IdRef="Throw_1" />
             </Sequence>
           </ActivityAction>
         </Catch>
       </TryCatch.Catches>
       <TryCatch.Finally>
-        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="588,89" sap2010:WorkflowViewState.IdRef="Sequence_5">
+        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="585.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
